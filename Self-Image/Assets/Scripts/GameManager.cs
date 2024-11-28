@@ -71,7 +71,6 @@ public class GameManager : MonoBehaviour
     {
         float size = imgClusters[(int)c].Count;
         int valoreCasuale = (int)UnityEngine.Random.Range(0, size-1);
-        Debug.Log(valoreCasuale);
         Immagine img = new Immagine();
         img = imgClusters[(int)c][valoreCasuale];
         RemoveImage(c, img);
@@ -91,7 +90,6 @@ public class GameManager : MonoBehaviour
         {
             SlidersManager.instance.UpdateSliders(VI);
         }
-        SpawnNewImage();
     }
 
     public void Accept()
@@ -100,7 +98,6 @@ public class GameManager : MonoBehaviour
         {
             SlidersManager.instance.UpdateSliders(VI);
         }
-        SpawnNewImage();
     }
 
 }

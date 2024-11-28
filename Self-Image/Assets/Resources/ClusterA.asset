@@ -17,7 +17,7 @@ MonoBehaviour:
     cluster: 0
     images:
     - id: 0
-      image: {fileID: 21300000, guid: 8d1031a4e732e744ea99f122b5f1bf0b, type: 3}
+      image: {fileID: -5526692874520906778, guid: e1893a9320bb33b488ab8c882969cdce, type: 3}
       AcceptedValues:
       - cluster: 0
         value: 12
@@ -29,7 +29,7 @@ MonoBehaviour:
       - cluster: 3
         value: -15
     - id: 1
-      image: {fileID: 21300000, guid: f0694eeb22846374c81f90abb2db9885, type: 3}
+      image: {fileID: -5526692874520906778, guid: 4195c45ed750b9b4d808c0a55a66c71e, type: 3}
       AcceptedValues:
       - cluster: 0
         value: 12
@@ -41,7 +41,85 @@ MonoBehaviour:
       - cluster: 3
         value: -15
     - id: 2
-      image: {fileID: 21300000, guid: 48627553278e96644bd082d000d32e2e, type: 3}
+      image: {fileID: -5526692874520906778, guid: 298271a9974b94842988cad6c5cbf687, type: 3}
+      AcceptedValues:
+      - cluster: 0
+        value: 12
+      - cluster: 1
+        value: -10
+      RejectedValues:
+      - cluster: 2
+        value: 20
+      - cluster: 3
+        value: -15
+  - id: Quadro2
+    cluster: 0
+    images:
+    - id: 0
+      image: {fileID: -2426113772406766134, guid: e1a13c6d2687e4d4fbc6c33def5c527c, type: 3}
+      AcceptedValues:
+      - cluster: 0
+        value: 12
+      - cluster: 1
+        value: -10
+      RejectedValues:
+      - cluster: 2
+        value: 20
+      - cluster: 3
+        value: -15
+    - id: 1
+      image: {fileID: -2426113772406766134, guid: e38a79d1476649147a67bd4439eb7ada, type: 3}
+      AcceptedValues:
+      - cluster: 0
+        value: 12
+      - cluster: 1
+        value: -10
+      RejectedValues:
+      - cluster: 2
+        value: 20
+      - cluster: 3
+        value: -15
+    - id: 2
+      image: {fileID: -2426113772406766134, guid: 772ae3b97eee64348939f73598b822bb, type: 3}
+      AcceptedValues:
+      - cluster: 0
+        value: 12
+      - cluster: 1
+        value: -10
+      RejectedValues:
+      - cluster: 2
+        value: 20
+      - cluster: 3
+        value: -15
+  - id: Quadro3
+    cluster: 0
+    images:
+    - id: 0
+      image: {fileID: 2231545762802194764, guid: 1865b7d45ab95514ba79411e5e2bc192, type: 3}
+      AcceptedValues:
+      - cluster: 0
+        value: 12
+      - cluster: 1
+        value: -10
+      RejectedValues:
+      - cluster: 2
+        value: 20
+      - cluster: 3
+        value: -15
+    - id: 1
+      image: {fileID: 2231545762802194764, guid: 8d5ab9fdcc91d7c4891780a5c6e73f57, type: 3}
+      AcceptedValues:
+      - cluster: 0
+        value: 12
+      - cluster: 1
+        value: -10
+      RejectedValues:
+      - cluster: 2
+        value: 20
+      - cluster: 3
+        value: -15
+    - id: 2
+      image: {fileID: 2231545762802194764, guid: 4f953ff68685ea24092f91392a7b8a4e, type: 3}
       AcceptedValues:
       - cluster: 0
         value: 12
